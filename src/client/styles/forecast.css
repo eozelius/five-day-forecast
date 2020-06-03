@@ -1,0 +1,17 @@
+.forecast {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin: 0 auto 10%;
+}
+
+@media screen and (max-width: 550px) {
+  .forecast {
+    flex-direction: column;
+  }
+
+  .forecast p {
+    font-size: 1.5em;
+  }
+}

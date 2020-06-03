@@ -1,0 +1,9 @@
+.hour-forecast {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 1%;
+}
+
+.time {
+  text-align:center;
+}

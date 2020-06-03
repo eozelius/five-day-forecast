@@ -1,0 +1,59 @@
+.day-low {
+  color: #72a6f9;
+}
+
+.day-high {
+  color: #f94440;
+}
+
+.day-description {
+  text-transform: capitalize;
+}
+
+.hourly-link {
+  cursor: pointer;
+}
+
+.day-forecast img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+/* Transformations */
+.day-forecast.active {
+  flex: 2;
+  transition: transform 0.5s;
+  transition: flex 0.7s 
+}
+
+.active .hourly-listings{
+  transform: translateY(0px);
+  transition: transform 0.8s;
+}
+
+.hourly-listings {
+  transform: translateY(10000px);
+}
+
+.day-forecast {
+  flex: 1;
+  border: 1px solid #ccc;
+  transition: transform 0.5s;
+  transition: flex 0.7s 
+}
+
+@media screen and (max-width: 550px) {
+  .day-forecast h3 {
+    font-size: 2em;
+  }
+
+  .day-forecast h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #616a78;
+  }
+
+  .day-forecast img {
+    width: 60%;
+  }
+}
