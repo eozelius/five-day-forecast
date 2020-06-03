@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import HourForecast from './HourForecast'
-import './styles/dayforecast.css'
 import weatherIcon from './util/weatherIcon'
 
 class DayForecast extends Component {
