@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './styles/hourforecast.css'
 
 class HourForecast extends Component {
   getTemp = () => {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import './styles/forecast.css'
 import DayForecast from './DayForecast'
+import './styles/forecast.css'
 
 class Forecast extends Component {
   constructor(props){

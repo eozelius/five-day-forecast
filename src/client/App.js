@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './app.css'
 import ForecastContainer from './containers/ForecastContainer'
 
 class App extends Component {
